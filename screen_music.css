@@ -1,0 +1,200 @@
+body{      
+    margin-top: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-image: url('background_image.jpg');
+    background-size: cover;
+}
+.logoMusic{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-top: -150px;
+    margin-left: 400px;
+    z-index: 9999999;
+}
+
+.logoMusic_2{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-top: -150px;
+    z-index: 9999999;
+    margin-left: -376px;
+}
+span{
+    margin: 10px;
+}
+.w1{
+    width: 20px;
+    height: 10px;
+    animation: mu 1s linear infinite;
+    background: rgb(122,7, 250);
+    border-radius:50px;
+}@keyframes mu{
+    0%{
+        padding-top: 70px;
+    }
+    50%{
+        padding-top: 10px;
+    }
+    100%{
+        padding-top: 70px;
+    }
+}
+.w2{
+    width: 20px;
+    height: 10px;
+    animation: mu2 2s linear infinite;
+    background: rgb(122,7, 250);
+    border-radius:50px;
+    }@keyframes mu2{
+    0%{
+        padding-top: 70px;
+    }
+    50%{
+        padding-top: 10px;
+    }
+    100%{
+        padding-top: 70px;
+    }
+}
+.w3{
+    width: 20px;
+    height: 10px;
+    animation: mu3 3s linear infinite;
+    background: rgb(122,7, 250);
+    border-radius:50px;
+}@keyframes mu3{
+    0%{
+        padding-top: 70px;
+    }
+    50%{
+        padding-top: 10px;
+    }
+    100%{
+        padding-top: 70px;
+    }
+}
+.w4{
+    width: 20px;
+    height: 10px;
+    animation: mu4 2s linear infinite;
+    background: rgb(122,7, 250);
+    border-radius:50px;
+}@keyframes mu4{
+    0%{
+        padding-top: 70px;
+    }
+    50%{
+        padding-top: 10px;
+    }
+    100%{
+        padding-top: 70px;
+    }
+}
+.w5{
+    width: 20px;
+    height: 10px;
+    animation: mu5 1s linear infinite;
+    background: rgb(122,7, 250);
+    border-radius:50px;
+}@keyframes mu5{
+    0%{
+        padding-top: 70px;
+    }
+    50%{
+        padding-top: 10px;
+    }
+    100%{
+        padding-top: 70px;
+    }
+}
+
+
+.audio{
+    position: absolute;
+    margin-top: -100px;
+    width: max-content;
+}
+audio{
+    border: rgba(120, 7, 250, 0.393) solid 2px;
+    padding: 10px;
+    padding-top: 200px;
+    border-radius: 10px;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/909e11149446397.Y3JvcCwxMzgwLDEwODAsMjYzLDA.jpg'); 
+    background-size: cover; 
+    transition: .5s ease; 
+    margin: 30px;     
+}
+.audio1:hover{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/dfab0d168365879.Y3JvcCwxMTI3LDg4MiwxMTcsMA.jpg');  
+    box-shadow: 5px 10px 10px #202020;
+}
+
+.audio2{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/875eb2168426477.Y3JvcCwxMDAzLDc4NSwxOTgsMA.jpg');
+}
+.audio2:hover{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/081e1c145170691.Y3JvcCwxMDIyLDgwMCwxMzQsMA.jpg');
+    box-shadow: 5px 10px 10px #202020;
+}
+.name{
+    margin-top: 350px;
+    width: max-content;
+    height: min-content;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 500;
+}
+.name p{
+    color:rgb(122,7, 250); ;
+}
+.name p:hover::after{
+    content: 'Welcome'; 
+    width: 150px;
+    height: 30px;
+    background: rgba(120, 7, 250, 0.393);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#name{
+    text-transform: uppercase;
+    color: black;
+}
+
+@media screen and (max-width: 300px) {
+    .audio{
+        margin-top: -180px;
+    }
+    audio{
+        border: rgba(120, 7, 250, 0.393) solid 2px;
+        padding: 0px;
+        padding-top: 150px;
+    }
+    .logoMusic{
+        margin-top: -250px;
+    }span{
+        margin: 5px;
+        width: 10px;
+        height: 10px;
+    }
+    .name{
+        margin-top: 250px;
+    }
+    .name p:hover::before{
+        margin-top: 23.5px;
+    }
+    .name p:hover::after{
+        margin-left: -10px;
+    }
+}
